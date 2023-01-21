@@ -11,7 +11,6 @@
     <version>1.0</version>
 
     <modules>
-        <module>updater</module>
         <module>common</module>
         <module>rspeer-client</module>
         <module>loader</module>
