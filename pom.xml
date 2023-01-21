@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.rspeer</groupId>
+    <artifactId>rspeer-parent</artifactId>
+
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>updater</module>
+        <module>common</module>
+        <module>rspeer-client</module>
+        <module>loader</module>
+        <module>compiler</module>
+        <module>rest-api-services</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+</project>

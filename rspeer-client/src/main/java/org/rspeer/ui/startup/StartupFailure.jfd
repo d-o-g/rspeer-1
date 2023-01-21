@@ -1,0 +1,37 @@
+JFDML JFormDesigner: "7.0.0.0.117" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::271:x, par l {comp label1:::p:245:p, comp label4:::p::p}, space :p:249:p}, seq l {space :p:154:p, comp error:::p:461:p, space ::150:x}}"
+				"$verticalGroup": "par l {seq l {space :p:18:p, comp label4:::p::p, space s:::p, comp label1:::p:45:p, space :::p, comp error:::p:200:p, space ::74:x}}"
+			} ) {
+				name: "panel1"
+				"minimumSize": new java.awt.Dimension( 765, 503 )
+				"opaque": false
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/logo.png" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Failed to load RuneScape."
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 6, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "error"
+					"text": "text"
+					"foreground": new java.awt.Color( 255, 79, 123, 255 )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 765, 505 )
+		} )
+	}
+}

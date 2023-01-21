@@ -1,0 +1,68 @@
+JFDML JFormDesigner: "7.0.0.0.117" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::204:x, par l {comp purchaseButton::l:p:370:p, seq l {space :p:63:p, comp label4:::p::p}, comp label3:::p:376:p, comp label5:::p:370:p, comp storeLink:::p::p, comp label10:::p::p, comp label9:::p::p, comp label7:::p::p, comp label8:::p:421:p, comp label6:::p::p}, space :p:140:p}}"
+				"$verticalGroup": "par l {seq l {space :p:18:p, comp label4:::p::p, space s:::p, comp label3:::p:31:p, space :6:6:p, comp label5:::p:23:p, space s:::p, comp label6:::p::p, space :::p, comp label8:::p::p, space :::p, comp label7:::p::p, space :::p, comp label9:::p::p, space :::p, comp label10:::p::p, space :::p, comp storeLink:::p::p, space ::34:x, comp purchaseButton:::p:55:p, space :p:32:p}}"
+			} ) {
+				name: "panel1"
+				"minimumSize": new java.awt.Dimension( 765, 503 )
+				"opaque": false
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/logo.png" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "You have currently hit your instance limit. "
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Please close another running client to run this one."
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "What are instances and why have I hit the limit?"
+					"foreground": new java.awt.Color( 204, 204, 204, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "We give 3 free instances to each user. Once that is passed,"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "Instances are the amount of clients you are able to run."
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "more instances must be purchase to open additional clients."
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "To purchase more instances, click the button below or visit:"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "storeLink"
+					"text": "https://store.rspeer.org/"
+					"foreground": new java.awt.Color( 0, 157, 186, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "purchaseButton"
+					"text": "Purchase More Instances"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 765, 505 )
+		} )
+	}
+}
